@@ -9,8 +9,16 @@ font-weight: Light;
 
 p{ font-family: 'BrutalType'; }
 
-.background 1screen {
+h1{
+font-family: "BrutalType-Black";
+src: url("../fonts/Brutal/BrutalType-Black.ttf") format("truetype");
+font-size: 322px;
+color: #13102D;
+justify-content: center;
+}
+.back1 img{
 display: flex;
-image height: 760px;
-image width: 1280px;
+justify-content: center;
+/* height: 760px; */
+width: 1280px;
 }
