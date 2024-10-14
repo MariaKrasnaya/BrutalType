@@ -10,7 +10,7 @@ font-weight: Light;
 p{ font-family: 'BrutalType'; }
 
 .background 1screen {
-display: flex; /* расположи элементы горизонтально */
+display: flex;
 image height: 760px;
 image width: 1280px;
 }
