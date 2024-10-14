@@ -14,11 +14,16 @@ font-family: "BrutalType-Black";
 src: url("../fonts/Brutal/BrutalType-Black.ttf") format("truetype");
 font-size: 322px;
 color: #13102D;
-justify-content: center;
+text-align: center;
+}
+
+.back1 img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .back1 img{
-display: flex;
-justify-content: center;
+margin: top 0px;
 /* height: 760px; */
 width: 1280px;
 }
