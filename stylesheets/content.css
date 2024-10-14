@@ -20,7 +20,7 @@ text-align: center;
 .back1 img{
 display: flex;
 justify-content: center;
-align-items: center;
+/* align-items: center; */
 margin: top 0px;
 /* height: 760px; */
 width: 1280px;
