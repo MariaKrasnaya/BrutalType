@@ -1,0 +1,16 @@
+*{ box-sizing: border-box;}
+
+@font-face {
+font-family: "BrutalType";
+src: url("../fonts/Brutal/BrutalType.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+p{ font-family: 'BrutalType'; }
+
+.background 1screen {
+display: flex; /* расположи элементы горизонтально */
+image height: 760px;
+image width: 1280px;
+}
