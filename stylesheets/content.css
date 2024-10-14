@@ -21,7 +21,8 @@ text-align: center;
 display: flex;
 justify-content: center;
 /* align-items: center; */
-margin: top 0px;
+margin-top: 0;
+margin: 0 auto;
 /* height: 760px; */
 width: 1280px;
 }
