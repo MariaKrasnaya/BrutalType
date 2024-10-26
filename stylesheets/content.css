@@ -1,44 +1,109 @@
-*{ box-sizing: border-box;}
+*{
+  box-sizing: border-box;
+}
+
 body{
-  width: 100%;
-  overflow-x: hidden;
+/* width: 100%;
+overflow-x: hidden; */
+width: 1280px;
+display: block;
+margin: 0% auto;
+font-family: "Brutal Type";
+background-color: #13102D;
 }
 
-@font-face {
-font-family: "BrutalType";
-src: url("../fonts/Brutal/BrutalType.ttf") format("truetype");
-font-style: Light;
-font-weight: Light;
+.section-1{
+display: flex;
+width: 1280px;
+height: 880px;
+background-color: #fff;
 }
 
-p{ font-family: 'BrutalType'; }
+.glasses {
+margin: 0 0 -450px 395px;
+position: relative;
+z-index: 100px;
+}
 
-h1{
-font-family: "BrutalType-Black";
-src: url("../fonts/Brutal/BrutalType-Black.ttf") format("truetype");
-font-size: 322px;
+.section-1 h3 {
+font-size: 45px;
+font-weight: 700;
+color: #13102D;
+text-align: left;
+margin: -500px 0 0 936px;
+}
+
+.section-2 {
+width: 1280px;
+height: 1349px;
+background-image: url(../img/bg_section2.svg);
+}
+
+.jarcenter img{
+margin: 95px 0 0 487px;
+}
+.jarcenter h1{
+font-size: 120px;
+font-weight: 800;
+color: #13102D;
+margin: -351px 0 0 514px;
+}
+
+.jarcenter h5 {
+font-size: 21px;
+font-weight: 800;
+color: #13102D;
+margin: -10px 0 0 537px;
+}
+
+.jarleft img{
+margin: -29px 0 0 213px;
+}
+
+.jarleft h4{
+font-size: 30px;
+font-weight: 800;
 color: #13102D;
 text-align: center;
-margin-top: -631px;
+margin: 23px 0 0 -542px;
 }
 
-.back1{
-  margin: 0 auto;
-  width: 1280px;
+.jarleft h5{
+font-size: 21px;
+font-weight: 800;
+color: #13102D;
+margin: -182px 0 0 333px;
 }
-.back1 img{
-display: flex;
-justify-content: center;
-margin-top: 0;
+
+.section-2 h2 {
+font-size: 92px;
+font-weight: 900;
+color: #13102D;
+margin: 190px 0 0 310px;
+}
+
+.firstlist {
+margin: 109px 0 0 50px;
+}
+
+.secondlist {
+margin: -436px 0 0 378px;
+}
+
+.thirdlist {
+margin: -176px 0 0 605px;
+}
+
+.fourlist {
+margin: -506px 0 0 880px;
+}
+
+.mountains3 {
+margin: 6px 0 0 0;
+}
+
+.section-3 {
 width: 1280px;
-}
-
-.screen1{
-font-family: "BrutalType-Bold";
-src: url("../fonts/Brutal/BrutalType-Bold.ttf") format("truetype");
-font-size: 45px;
-text-align: left;
-margin-top: 107px;
-margin-left: calc(50% - 180px);
-
+height: 735px;
+background-image: url(/img/bg_section3.svg);
 }
