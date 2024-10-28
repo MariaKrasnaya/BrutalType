@@ -12,6 +12,14 @@ font-family: "Brutal Type";
 background-color: #13102D;
 }
 
+h2{
+font-size: 92px;
+}
+
+h3{
+font-size: 45px;
+font-weight: 700;
+}
 .section-1{
 display: flex;
 width: 1280px;
@@ -57,7 +65,7 @@ margin: -10px 0 0 537px;
 }
 
 .jarleft img{
-margin: -29px 0 0 213px;
+margin: -26px 0 0 214px;
 }
 
 .jarleft h4{
@@ -79,31 +87,115 @@ margin: -182px 0 0 333px;
 font-size: 92px;
 font-weight: 900;
 color: #13102D;
-margin: 190px 0 0 310px;
+margin: 149px 0 0 310px;
+}
+
+.firstlist h3 {
+color: #13102D;
+margin: -294px 0 0 -4px;
+transform: rotate(9deg);
+text-align: center;
+line-height: 2.5;
 }
 
 .firstlist {
-margin: 109px 0 0 50px;
+width: 313px;
+height: 348px;
+margin: 92px 0 0 50px;
 }
 
+
 .secondlist {
+width: 285px;
+height: 287px;
 margin: -436px 0 0 378px;
 }
 
+.secondlist h3 {
+color: #13102D;
+margin: -200px 0 0 19px;
+}
+
 .thirdlist {
+width: 344px;
+height: 348px;
 margin: -176px 0 0 605px;
 }
 
+.thirdlist h3 {
+color: #13102D;
+margin: -278px 0 0 0;
+transform: rotate(-12deg);
+text-align: center;
+line-height: 2.5;
+}
+
 .fourlist {
+width: 350px;
+height: 366px;
 margin: -506px 0 0 880px;
 }
 
+.fourlist h3 {
+color: white;
+margin: -274px 0 0 48px;
+transform: rotate(-17deg);
+}
+
 .mountains3 {
-margin: 6px 0 0 0;
+margin: 112px 0 0 0;
 }
 
 .section-3 {
 width: 1280px;
 height: 735px;
-background-image: url(/img/bg_section3.svg);
+background-image: url(../img/bg_section3.svg);
 }
+
+.letter h1{
+position: absolute;
+width: 537px;
+height: 611px;
+font-size: 871px;
+font-weight: 500;
+color:#FF0000;
+margin: 20px 0 0 686px;
+}
+
+.text3{
+position: absolute;
+width: 580px;
+height: 226px;
+font-weight: 700;
+color: #68686D;
+margin: 44px 0 0 22px;
+}
+
+.section-4 {
+width: 1280px;
+height: 744px;
+/* background-image: url(../img/bg_section4.svg); */
+}
+
+.section-4 h3 {
+position: absolute;
+color: #68686D;
+margin: 623px 0 0 41px;
+}
+
+.greyletters {
+position: absolute;
+font-size: 652px;
+font-weight: 500;
+letter-spacing: 6px;
+margin: 9px 0 0 -14px;
+color: #68686D;
+}
+
+.greyletters img {
+position: absolute;
+margin: -591px 0 0 243px;
+width: 728px;
+height: 469px;
+}
+
