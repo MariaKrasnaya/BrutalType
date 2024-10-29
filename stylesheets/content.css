@@ -20,6 +20,11 @@ h3{
 font-size: 45px;
 font-weight: 700;
 }
+
+h5 {
+font-size: 21px;
+font-weight: 800;
+}
 .section-1{
 display: flex;
 width: 1280px;
@@ -199,3 +204,102 @@ width: 728px;
 height: 469px;
 }
 
+.section-5 {
+width: 1280px;
+height: 784px;
+background-image: url(../img/bg_section5.svg);
+}
+
+.backpacks {
+width: 1280px;
+height: 644px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+}
+
+.backpack1 {
+width: 355px;
+height: 489px;
+}
+
+.backpack2 {
+width: 355px;
+height: 489px;
+}
+
+.backpack3 {
+width: 355px;
+height: 489px;
+}
+
+.fontstyles {
+width: 1207px;
+height: 114px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+color: #68686D;
+padding: 37px; 
+}
+
+.section-6 {
+width: 1280px;
+height: 890px;
+background-image: url(../img/bg_section6.svg);
+}
+
+.skrin6 {
+width: 1280px;
+height: 890px;
+display: flex;
+flex-direction: row;
+}
+
+.style-names {
+width: 373px;
+height: 887px;
+}
+
+.words-part1 {
+width: 451px;
+height: 887px;
+}
+
+.words-part2 {
+width: 451px;
+height: 887px;
+}
+
+.section-7 {
+width: 1280px;
+height: 1455px;
+}
+
+.text-7scrin {
+width: 1280px;
+height: 200px;
+color: #68686D;
+font-weight: 700;
+line-height: 0.9;
+margin: 20px 0 0 34px;
+}
+
+.section-7 img {
+width: 1201px;
+height: 1249px;
+margin: -31px 0 0 31px;
+}
+
+.section-7 h1{
+font-size: 234px;
+font-weight: 700;
+color: #fff;
+}
+
+.row1 {
+display: flex;
+flex-direction: row;
+justify-items: center;
+}
