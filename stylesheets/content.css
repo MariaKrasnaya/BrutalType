@@ -38,6 +38,13 @@ position: relative;
 z-index: 100px;
 }
 
+.mouth {
+width: 285px;
+height: 217px;
+margin: -443px 0 0 500px;
+position: absolute;
+}
+
 .section-1 h3 {
 font-size: 45px;
 font-weight: 700;
